@@ -1,0 +1,43 @@
+/* faq.css */
+
+.faq {
+  max-width: 600px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #edb7b7;
+  border-radius: 5px;
+}
+
+.faq h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.faq-item {
+  margin-bottom: 24px;
+}
+
+.faq-question {
+  font-weight: bold;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.faq-answer {
+  display: none;
+  margin-top: 8px;
+}
+
+.faq-answer p {
+  margin-bottom: 8px;
+}
+
+.faq-question.active {
+  color: #c07676;
+}
+
+.faq-question.active + .faq-answer {
+  display: block;
+}

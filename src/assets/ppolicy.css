@@ -1,0 +1,22 @@
+/* ppolicy.css */
+
+.poli {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .pp {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #ef8e8e;
+  }
+  
+  .poli p {
+    margin-bottom: 12px;
+  }
+  
